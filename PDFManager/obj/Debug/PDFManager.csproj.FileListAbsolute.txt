@@ -1,0 +1,33 @@
+C:\Visual Studio Projects\PDFManager\PDFManager\bin\Debug\PDFManager.exe.config
+C:\Visual Studio Projects\PDFManager\PDFManager\bin\Debug\PDFManager.exe
+C:\Visual Studio Projects\PDFManager\PDFManager\bin\Debug\PDFManager.pdb
+C:\Visual Studio Projects\PDFManager\PDFManager\obj\Debug\PDFManager.csprojResolveAssemblyReference.cache
+C:\Visual Studio Projects\PDFManager\PDFManager\obj\Debug\PDFManager.Main.resources
+C:\Visual Studio Projects\PDFManager\PDFManager\obj\Debug\PDFManager.Properties.Resources.resources
+C:\Visual Studio Projects\PDFManager\PDFManager\obj\Debug\PDFManager.csproj.GenerateResource.Cache
+C:\Visual Studio Projects\PDFManager\PDFManager\obj\Debug\PDFManager.exe
+C:\Visual Studio Projects\PDFManager\PDFManager\obj\Debug\PDFManager.pdb
+C:\Visual Studio Projects\PDFManager\PDFManager\bin\Debug\itextsharp.xml
+C:\Visual Studio Projects\PDFManager\PDFManager\obj\Debug\PDFManager.Instructions.resources
+C:\Software\C#\PDFManager\PDFManager\bin\Debug\PDFManager.exe.config
+C:\Software\C#\PDFManager\PDFManager\obj\Debug\PDFManager.exe
+C:\Software\C#\PDFManager\PDFManager\obj\Debug\PDFManager.pdb
+C:\Software\C#\PDFManager\PDFManager\bin\Debug\PDFManager.exe
+C:\Software\C#\PDFManager\PDFManager\bin\Debug\PDFManager.pdb
+C:\Software\C#\PDFManager\PDFManager\bin\Debug\itextsharp.xml
+C:\Software\C#\PDFManager\PDFManager\obj\Debug\PDFManager.csprojResolveAssemblyReference.cache
+C:\Software\C#\PDFManager\PDFManager\obj\Debug\PDFManager.Instructions.resources
+C:\Software\C#\PDFManager\PDFManager\obj\Debug\PDFManager.Main.resources
+C:\Software\C#\PDFManager\PDFManager\obj\Debug\PDFManager.Properties.Resources.resources
+C:\Software\C#\PDFManager\PDFManager\obj\Debug\PDFManager.csproj.GenerateResource.Cache
+C:\Software\PDFManager\PDFManager\bin\Debug\PDFManager.exe.config
+C:\Software\PDFManager\PDFManager\obj\Debug\PDFManager.exe
+C:\Software\PDFManager\PDFManager\obj\Debug\PDFManager.pdb
+C:\Software\PDFManager\PDFManager\obj\Debug\PDFManager.csprojResolveAssemblyReference.cache
+C:\Software\PDFManager\PDFManager\obj\Debug\PDFManager.Instructions.resources
+C:\Software\PDFManager\PDFManager\obj\Debug\PDFManager.Main.resources
+C:\Software\PDFManager\PDFManager\obj\Debug\PDFManager.Properties.Resources.resources
+C:\Software\PDFManager\PDFManager\obj\Debug\PDFManager.csproj.GenerateResource.Cache
+C:\Software\PDFManager\PDFManager\bin\Debug\PDFManager.exe
+C:\Software\PDFManager\PDFManager\bin\Debug\PDFManager.pdb
+C:\Software\PDFManager\PDFManager\bin\Debug\itextsharp.xml
