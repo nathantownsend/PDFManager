@@ -32,6 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="itextsharp, Version=5.4.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\itextsharp.dll</HintPath>
@@ -45,6 +51,8 @@
       <HintPath>bin\Debug\itextsharp.xtra.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -56,7 +64,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Copy of PDFExtractor.cs" />
+    <Compile Include="DAL\CSharp\DAL\DataCommon.cs" />
+    <Compile Include="DAL\CSharp\DAL\ExtractedFile.cs" />
+    <Compile Include="DAL\CSharp\DAL\SafeReader.cs" />
+    <Compile Include="DAL\CSharp\DO\ExtractedFile.cs" />
     <Compile Include="Instructions.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,10 +80,8 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="PdfFile.cs" />
-    <Compile Include="PDFExtractor.cs" />
+    <Compile Include="PDFFile.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="ProgramSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Instructions.resx">
       <DependentUpon>Instructions.cs</DependentUpon>
@@ -90,6 +99,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -107,7 +117,12 @@
     <None Include="DropZone.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Settings.xml" />
+    <Content Include="DAL\SQL\ExtractedFile_Delete.sql" />
+    <Content Include="DAL\SQL\ExtractedFile_GetAll.sql" />
+    <Content Include="DAL\SQL\ExtractedFile_GetByPK.sql" />
+    <Content Include="DAL\SQL\ExtractedFile_Insert.sql" />
+    <Content Include="DAL\SQL\ExtractedFile_Update.sql" />
+    <Content Include="DAL\Tables\ExtractedFile.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
